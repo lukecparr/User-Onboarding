@@ -1,0 +1,48 @@
+html {
+	font-size: 62.5%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 60%;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 10px 0;
+}
+
+input, select, textarea {
+	width: 100%;
+	margin: 5px 0 0;
+	display: block;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+button {
+	width: 100px;
+	padding: 8px 11px;
+
+}
+
+.error {
+  font-size: 1.2rem;
+  color: red;
+}
+
+.terms {
+  display: inline-block;
+  align-self: self-start;
+}
+
+.terms input {
+  width: 15px;
+  display: inline-block;
+  margin-right: 5px;
+}
